@@ -6,25 +6,21 @@ Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C
 CPU model: Apple M4
 Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
 
-Optimize a model with 7 rows, 4 columns and 28 nonzeros (Min)
-Model fingerprint: 0x06db15e6
-Model has 4 linear objective coefficients
+Optimize a model with 3 rows, 4 columns and 10 nonzeros (Min)
+Model fingerprint: 0xfc2ababf
+Model has 2 linear objective coefficients
 Coefficient statistics:
-  Matrix range     [5e-02, 1e+00]
-  Objective range  [5e+00, 2e+01]
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
   Bounds range     [0e+00, 0e+00]
-  RHS range        [2e-01, 1e+00]
-Presolve removed 4 rows and 1 columns
+  RHS range        [1e+00, 1e+00]
+Presolve removed 3 rows and 4 columns
 Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
+Presolve: All rows and columns removed
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -4.0000000e+00   3.598500e+00   0.000000e+00      0s
-       2    9.6216216e+00   0.000000e+00   0.000000e+00      0s
+       0    4.0000000e-01   0.000000e+00   0.000000e+00      0s
 
-Solved in 2 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  9.621621622e+00
-1 0.6486486486486487
-2 0.0
-3 0.054054054054053925
-4 0.29729729729729737
+Solved in 0 iterations and 0.01 seconds (0.00 work units)
+Optimal objective  4.000000000e-01
+Opt. Val.= 0.4 , t= 0.0125
+(x,y,z)= 23.999999999999996 8.0 0.0
