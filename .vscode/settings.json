@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Solarized Dark",
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "black-formatter.path": ["/opt/homebrew/bin/black"]
+}

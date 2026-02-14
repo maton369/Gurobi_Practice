@@ -1,0 +1,28 @@
+Set parameter Username
+Set parameter LicenseID to value 2762656
+Academic license - for non-commercial use only - expires 2027-01-10
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 2 rows, 3 columns and 6 nonzeros (Max)
+Model fingerprint: 0x1da73bc0
+Model has 3 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [3e+01, 3e+01]
+  RHS range        [6e+01, 6e+01]
+Presolve time: 0.00s
+Presolved: 2 rows, 3 columns, 6 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.3000000e+31   3.000000e+30   3.300000e+01      0s
+       3    1.2300000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  1.230000000e+03
+x1 = 10.0
+x2 = 10.0
+x3 = 30.0
