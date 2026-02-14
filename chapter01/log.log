@@ -6,27 +6,25 @@ Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C
 CPU model: Apple M4
 Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
 
-Optimize a model with 8 rows, 15 columns and 30 nonzeros (Min)
-Model fingerprint: 0xa225ad1d
-Model has 15 linear objective coefficients
+Optimize a model with 7 rows, 4 columns and 28 nonzeros (Min)
+Model fingerprint: 0x06db15e6
+Model has 4 linear objective coefficients
 Coefficient statistics:
-  Matrix range     [1e+00, 1e+00]
-  Objective range  [3e+00, 1e+01]
+  Matrix range     [5e-02, 1e+00]
+  Objective range  [5e+00, 2e+01]
   Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+01, 5e+02]
+  RHS range        [2e-01, 1e+00]
+Presolve removed 4 rows and 1 columns
 Presolve time: 0.00s
-Presolved: 8 rows, 15 columns, 30 nonzeros
+Presolved: 3 rows, 3 columns, 9 nonzeros
 
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    3.3500000e+03   2.000000e+01   0.000000e+00      0s
-       1    3.3700000e+03   0.000000e+00   0.000000e+00      0s
+       0   -4.0000000e+00   3.598500e+00   0.000000e+00      0s
+       2    9.6216216e+00   0.000000e+00   0.000000e+00      0s
 
-Solved in 1 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  3.370000000e+03
-Optimal value: 3370.0
-sending quantity       80.0 from factory   1 to customer   1
-sending quantity       20.0 from factory   1 to customer   2
-sending quantity      250.0 from factory   2 to customer   2
-sending quantity      250.0 from factory   2 to customer   3
-sending quantity      160.0 from factory   3 to customer   4
-sending quantity      180.0 from factory   3 to customer   5
+Solved in 2 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  9.621621622e+00
+1 0.6486486486486487
+2 0.0
+3 0.054054054054053925
+4 0.29729729729729737
