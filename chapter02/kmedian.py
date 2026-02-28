@@ -21,7 +21,6 @@ k-median の直感
 - 数式は必ず `# Math: <LaTeX>` の1行形式にする（ホバーでレンダリングされる）
 - `$$...$$` は使わない（Mathoverの既定トリガが `Math:` のため）
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *

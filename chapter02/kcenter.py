@@ -23,7 +23,6 @@ k-median との違い（重要）
 - ソースコード内の数式コメントは Mathover に合わせて `# Math: <LaTeX>` の1行形式に統一する。
 - レビュー本文はLaTeXだが、ここはソースコードなので Mathover 形式。
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *

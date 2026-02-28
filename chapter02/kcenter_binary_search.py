@@ -19,7 +19,6 @@ kcenter_binary_search.py: use bisection for solving the k-center problem
 数式コメント方針（Mathover対応）
 - ソースコード内の数式コメントは `# Math: <LaTeX>` の1行形式に統一する。
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *

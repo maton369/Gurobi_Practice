@@ -19,7 +19,6 @@ prodmix.py:  product mix model
 - もし本当に利益を最大化したいなら `GRB.MAXIMIZE` にするのが自然である。
   逆に、p[i] が「コスト」なら最小化で整合する。
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *
