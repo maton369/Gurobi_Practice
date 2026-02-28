@@ -13,7 +13,6 @@ Gurobiで解く例。
 このファイルのモデルは、前のパズル（頭・足）制約を「割合（比率）」として扱う形になっている。
 ポイントは「t で全体をスケーリングして、比率の世界で最適化している」こと。
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *

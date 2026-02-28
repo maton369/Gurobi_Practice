@@ -27,7 +27,6 @@ flp.py: model for solving the capacitated facility location problem（容量制�
 # - $$ の中身は詰める（空行なし）
 # - さらにユーザー要望に合わせ、数式は Python コメント（#）としてコメントアウトして載せる
 
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *
