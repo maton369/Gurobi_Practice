@@ -1,0 +1,39 @@
+Set parameter Username
+Set parameter LicenseID to value 2762656
+Academic license - for non-commercial use only - expires 2027-01-10
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 23 rows, 18 columns and 63 nonzeros (Min)
+Model fingerprint: 0x96676946
+Model has 18 linear objective coefficients
+Variable types: 15 continuous, 3 integer (3 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+02]
+  Objective range  [3e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e+01, 3e+02]
+Presolve time: 0.00s
+Presolved: 23 rows, 18 columns, 63 nonzeros
+Variable types: 15 continuous, 3 integer (3 binary)
+Found heuristic solution: objective 6370.0000000
+
+Root relaxation: objective 5.610000e+03, 10 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    5610.0000000 5610.00000  0.00%     -    0s
+
+Explored 1 nodes (10 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 5610 6370 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.610000000000e+03, best bound 5.610000000000e+03, gap 0.0000%
+Optimal value= 5610.0
+Facilities at nodes: [2, 3]
+Edges: [(1, 2), (2, 2), (3, 2), (3, 3), (4, 3), (5, 3)]
