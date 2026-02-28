@@ -1,13 +1,8 @@
+edges: [(1, 2), (2, 3), (2, 4), (3, 4)]
 
 
 
-Solution of FFD:
-[[75, 20], [75, 20], [75, 20], [75, 20], [75, 20], [75, 20], [75, 20], [75, 20], [55, 55], [55, 55], [55, 55], [55, 55], [55, 55], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 45, 20], [45, 20, 20, 20], [20, 20, 20, 20, 20], [20, 20, 20, 20, 20], [20, 20, 20, 20, 20], [20, 20, 20, 20, 20]]
-47 bins
-
-
-
-Cutting stock problem, column generation:
+Standard model:
 Set parameter Username
 Set parameter LicenseID to value 2762656
 Academic license - for non-commercial use only - expires 2027-01-10
@@ -16,371 +11,173 @@ Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C
 CPU model: Apple M4
 Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
 
-Optimize a model with 5 rows, 5 columns and 5 nonzeros (Min)
-Model fingerprint: 0x2cbd1e17
-Model has 5 linear objective coefficients
+Optimize a model with 9 rows, 8 columns and 28 nonzeros (Min)
+Model fingerprint: 0x094abf34
+Model has 4 linear objective coefficients
+Variable types: 0 continuous, 8 integer (8 binary)
 Coefficient statistics:
-  Matrix range     [1e+00, 5e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+00, 5e+01]
-Presolve removed 5 rows and 5 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    5.2100000e+01   0.000000e+00   0.000000e+00      0s
-
-Solved in 0 iterations and 0.01 seconds (0.00 work units)
-Optimal objective  5.210000000e+01
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 1 rows, 5 columns and 5 nonzeros (Max)
-Model fingerprint: 0xe2d90900
-Model has 5 linear objective coefficients
-Variable types: 0 continuous, 5 integer (0 binary)
-Coefficient statistics:
-  Matrix range     [2e+01, 8e+01]
-  Objective range  [2e-01, 1e+00]
-  Bounds range     [8e+00, 5e+01]
-  RHS range        [1e+02, 1e+02]
-Found heuristic solution: objective 1.0000000
-Presolve removed 1 rows and 5 columns
-Presolve time: 0.01s
-Presolve: All rows and columns removed
-
-Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
-Thread count was 1 (of 10 available processors)
-
-Solution count 2: 1.2 1 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 1.200000000000e+00, best bound 1.200000000000e+00, gap 0.0000%
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 5 rows, 6 columns and 7 nonzeros (Min)
-Model fingerprint: 0xfb186c89
-Model has 6 linear objective coefficients
-Coefficient statistics:
-  Matrix range     [1e+00, 5e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+00, 5e+01]
-Presolve removed 3 rows and 3 columns
-Presolve time: 0.00s
-Presolved: 2 rows, 3 columns, 4 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    2.5000000e+01   2.350000e+01   0.000000e+00      0s
-       3    4.8600000e+01   0.000000e+00   0.000000e+00      0s
-
-Solved in 3 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.860000000e+01
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 1 rows, 5 columns and 5 nonzeros (Max)
-Model fingerprint: 0x8a5b7bfc
-Model has 5 linear objective coefficients
-Variable types: 0 continuous, 5 integer (0 binary)
-Coefficient statistics:
-  Matrix range     [2e+01, 8e+01]
-  Objective range  [2e-01, 1e+00]
-  Bounds range     [8e+00, 5e+01]
-  RHS range        [1e+02, 1e+02]
-Found heuristic solution: objective 1.0000000
-Presolve removed 1 rows and 5 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-
-Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
-Thread count was 1 (of 10 available processors)
-
-Solution count 2: 1.2 1 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 1.200000000000e+00, best bound 1.200000000000e+00, gap 0.0000%
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 5 rows, 7 columns and 9 nonzeros (Min)
-Model fingerprint: 0x85a9eb71
-Model has 7 linear objective coefficients
-Coefficient statistics:
-  Matrix range     [1e+00, 5e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+00, 5e+01]
-Presolve removed 2 rows and 2 columns
-Presolve time: 0.00s
-Presolved: 3 rows, 5 columns, 7 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    1.7000000e+01   3.150000e+01   0.000000e+00      0s
-       5    4.7000000e+01   0.000000e+00   0.000000e+00      0s
-
-Solved in 5 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.700000000e+01
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 1 rows, 5 columns and 5 nonzeros (Max)
-Model fingerprint: 0x6322b8a3
-Model has 5 linear objective coefficients
-Variable types: 0 continuous, 5 integer (0 binary)
-Coefficient statistics:
-  Matrix range     [2e+01, 8e+01]
-  Objective range  [2e-01, 8e-01]
-  Bounds range     [8e+00, 5e+01]
-  RHS range        [1e+02, 1e+02]
-Found heuristic solution: objective 1.0000000
-Presolve removed 1 rows and 5 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-
-Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
-Thread count was 1 (of 10 available processors)
-
-Solution count 2: 1.1 1 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 1.100000000000e+00, best bound 1.100000000000e+00, gap 0.0000%
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 5 rows, 8 columns and 11 nonzeros (Min)
-Model fingerprint: 0xee42390f
-Model has 8 linear objective coefficients
-Coefficient statistics:
-  Matrix range     [1e+00, 5e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+00, 5e+01]
-Presolve removed 1 rows and 1 columns
-Presolve time: 0.00s
-Presolved: 4 rows, 7 columns, 10 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0    5.0000000e+00   4.350000e+01   0.000000e+00      0s
-       6    4.6250000e+01   0.000000e+00   0.000000e+00      0s
-
-Solved in 6 iterations and 0.00 seconds (0.00 work units)
-Optimal objective  4.625000000e+01
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 1 rows, 5 columns and 5 nonzeros (Max)
-Model fingerprint: 0x04224e07
-Model has 5 linear objective coefficients
-Variable types: 0 continuous, 5 integer (0 binary)
-Coefficient statistics:
-  Matrix range     [2e+01, 8e+01]
-  Objective range  [2e-01, 8e-01]
-  Bounds range     [8e+00, 5e+01]
-  RHS range        [1e+02, 1e+02]
-Found heuristic solution: objective 0.8333333
-Presolve removed 1 rows and 5 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-
-Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
-Thread count was 1 (of 10 available processors)
-
-Solution count 2: 1 0.833333 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 5 rows, 8 columns and 11 nonzeros (Min)
-Model fingerprint: 0x7659d3c0
-Model has 8 linear objective coefficients
-Variable types: 0 continuous, 8 integer (0 binary)
-Coefficient statistics:
-  Matrix range     [1e+00, 5e+00]
-  Objective range  [1e+00, 1e+00]
-  Bounds range     [0e+00, 0e+00]
-  RHS range        [8e+00, 5e+01]
-Found heuristic solution: objective 55.0000000
-Presolve removed 3 rows and 5 columns
-Presolve time: 0.00s
-Presolved: 2 rows, 3 columns, 4 nonzeros
-Variable types: 0 continuous, 3 integer (0 binary)
-
-Root relaxation: objective 4.666667e+01, 1 iterations, 0.00 seconds (0.00 work units)
-
-    Nodes    |    Current Node    |     Objective Bounds      |     Work
- Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
-
-     0     0   46.66667    0    2   55.00000   46.66667  15.2%     -    0s
-H    0     0                      47.0000000   46.66667  0.71%     -    0s
-     0     0   46.66667    0    2   47.00000   46.66667  0.71%     -    0s
-
-Explored 1 nodes (1 simplex iterations) in 0.01 seconds (0.00 work units)
-Thread count was 10 (of 10 available processors)
-
-Solution count 2: 47 55 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 4.700000000000e+01, best bound 4.700000000000e+01, gap 0.0000%
-47 rolls:
-[[20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 20, 20, 50], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 45, 45], [20, 75], [20, 75], [20, 75], [20, 75], [20, 75], [20, 75], [20, 75], [20, 75], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [50, 50], [55, 55], [55, 55], [55, 55], [55, 55], [55, 55]]
-
-
-
-Bin packing problem:
-Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
-
-CPU model: Apple M4
-Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
-
-Optimize a model with 6047 rows, 5922 columns and 23547 nonzeros (Min)
-Model fingerprint: 0x3a2493e6
-Model has 47 linear objective coefficients
-Variable types: 0 continuous, 5922 integer (5922 binary)
-Coefficient statistics:
-  Matrix range     [1e+00, 1e+02]
+  Matrix range     [1e+00, 1e+00]
   Objective range  [1e+00, 1e+00]
   Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 1e+00]
-Presolve removed 232 rows and 0 columns
-Presolve time: 0.15s
-Presolved: 5815 rows, 5922 columns, 39091 nonzeros
-Variable types: 0 continuous, 5922 integer (5922 binary)
-Found heuristic solution: objective 47.0000000
+  RHS range        [2e+00, 2e+00]
+Found heuristic solution: objective 2.0000000
+Presolve time: 0.00s
+Presolved: 9 rows, 8 columns, 28 nonzeros
+Variable types: 0 continuous, 8 integer (8 binary)
 
-Root relaxation: objective 4.550000e+01, 4412 iterations, 0.14 seconds (0.17 work units)
+Root relaxation: objective 0.000000e+00, 5 iterations, 0.00 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0   45.50000    0   32   47.00000   45.50000  3.19%     -    0s
-     0     0   45.50000    0   85   47.00000   45.50000  3.19%     -    0s
-     0     0   45.50000    0  114   47.00000   45.50000  3.19%     -    0s
-     0     0   45.50000    0   33   47.00000   45.50000  3.19%     -    0s
-     0     0   45.50000    0   47   47.00000   45.50000  3.19%     -    1s
-     0     0   45.50000    0   93   47.00000   45.50000  3.19%     -    1s
-     0     0   45.50000    0   26   47.00000   45.50000  3.19%     -    1s
-     0     0   45.50000    0   41   47.00000   45.50000  3.19%     -    1s
-     0     0   46.00000    0   71   47.00000   46.00000  2.13%     -    2s
-     0     0   46.00000    0   42   47.00000   46.00000  2.13%     -    2s
-     0     0   46.00000    0   42   47.00000   46.00000  2.13%     -    2s
-     0     0   46.00000    0   24   47.00000   46.00000  2.13%     -    2s
-     0     2   46.00000    0   24   47.00000   46.00000  2.13%     -    3s
-   232   175   46.00000   22   54   47.00000   46.00000  2.13%  94.3    5s
-  1915  1498   46.00000   17   20   47.00000   46.00000  2.13%  44.8   10s
-  2078  1873   46.00000   38   29   47.00000   46.00000  2.13%  48.6   15s
-  4270  3298   46.00000  147   29   47.00000   46.00000  2.13%  53.1   20s
-  8101  4500   46.00000  328   24   47.00000   46.00000  2.13%  57.2   26s
-  8894  5867   46.00000  166   30   47.00000   46.00000  2.13%  58.1   30s
- 12011  7550   46.00000  232   29   47.00000   46.00000  2.13%  59.4   35s
- 18116 10822   46.00000  180   67   47.00000   46.00000  2.13%  55.4   40s
- 21028 13033 infeasible  291        47.00000   46.00000  2.13%  55.6   45s
- 28267 16315   46.00000  357   21   47.00000   46.00000  2.13%  57.5   51s
- 29320 17213 infeasible  279        47.00000   46.00000  2.13%  57.4   55s
- 37203 20098   46.00000  331   14   47.00000   46.00000  2.13%  60.3   61s
- 40111 22054 infeasible  307        47.00000   46.00000  2.13%  60.5   65s
- 45561 24292   46.00000  254   17   47.00000   46.00000  2.13%  60.6   70s
- 49927 26432   46.00000   88   24   47.00000   46.00000  2.13%  60.8   75s
- 54745 27846   46.00000  292   15   47.00000   46.00000  2.13%  62.0   80s
- 57547 29264   46.00000  287   29   47.00000   46.00000  2.13%  62.5   85s
- 61935 30843   46.00000  229   16   47.00000   46.00000  2.13%  63.4   90s
- 66239 32804   46.00000  285   10   47.00000   46.00000  2.13%  64.5   96s
- 67443 32969   46.00000  276    8   47.00000   46.00000  2.13%  64.9  100s
- 68139 33680   46.00000  203   25   47.00000   46.00000  2.13%  64.9  105s
- 75696 37071 infeasible  212        47.00000   46.00000  2.13%  65.2  110s
- 78381 38298   46.00000  201   19   47.00000   46.00000  2.13%  65.4  115s
- 84254 40830   46.00000  209   40   47.00000   46.00000  2.13%  66.2  120s
- 87005 42219   46.00000  284   16   47.00000   46.00000  2.13%  66.7  125s
- 92482 44541 infeasible  239        47.00000   46.00000  2.13%  66.7  131s
- 94819 46489   46.00000  190   13   47.00000   46.00000  2.13%  67.0  135s
- 97613 47875   46.00000  302   12   47.00000   46.00000  2.13%  67.3  140s
- 100039 51066   46.00000  222   19   47.00000   46.00000  2.13%  67.5  150s
- 107365 51640   46.00000  244   20   47.00000   46.00000  2.13%  69.2  155s
- 109980 52588 infeasible  198        47.00000   46.00000  2.13%  69.6  160s
- 112676 53650   46.00000  312   26   47.00000   46.00000  2.13%  70.3  166s
- 118032 56071 infeasible  333        47.00000   46.00000  2.13%  70.5  170s
- 122024 56659   46.00000  328   14   47.00000   46.00000  2.13%  71.7  175s
- 126482 57258   46.00000  317   10   47.00000   46.00000  2.13%  73.1  180s
- 131286 57471   46.00000  259   19   47.00000   46.00000  2.13%  75.0  185s
- 131851 57547   46.00000  262   21   47.00000   46.00000  2.13%  75.2  192s
- 132113 57555   46.00000  264   16   47.00000   46.00000  2.13%  75.3  196s
- 133824 57413   46.00000  300   22   47.00000   46.00000  2.13%  76.1  200s
- 136979 57973 infeasible  262        47.00000   46.00000  2.13%  77.2  206s
- 138076 58283   46.00000  313   14   47.00000   46.00000  2.13%  77.2  210s
- 143067 59652   46.00000  280   10   47.00000   46.00000  2.13%  77.1  216s
- 146453 61225 infeasible  338        47.00000   46.00000  2.13%  77.4  220s
- 151114 62579   46.00000  289   25   47.00000   46.00000  2.13%  77.8  225s
- 153479 63396   46.00000  280   16   47.00000   46.00000  2.13%  78.0  230s
- 159760 66342   46.00000  447   34   47.00000   46.00000  2.13%  77.5  235s
- 163205 67381   46.00000  274   21   47.00000   46.00000  2.13%  77.5  240s
- 169669 69846 infeasible  269        47.00000   46.00000  2.13%  77.3  245s
- 172978 71156   46.00000  273    9   47.00000   46.00000  2.13%  77.1  250s
- 178333 73663   46.00000  334   32   47.00000   46.00000  2.13%  76.7  256s
- 179389 74179   46.00000  227   24   47.00000   46.00000  2.13%  76.6  261s
- 179602 75109 infeasible  247        47.00000   46.00000  2.13%  76.5  266s
- 184003 77515   46.00000  252   18   47.00000   46.00000  2.13%  76.2  270s
- 188567 78999 infeasible  308        47.00000   46.00000  2.13%  76.2  275s
- 192944 80682   46.00000  319   17   47.00000   46.00000  2.13%  76.6  280s
- 196060 81320   46.00000  301   23   47.00000   46.00000  2.13%  76.9  285s
- 198003 81888   46.00000  336   11   47.00000   46.00000  2.13%  77.1  290s
- 203428 83730 infeasible  251        47.00000   46.00000  2.13%  77.4  297s
- 203613 83972   46.00000  233   19   47.00000   46.00000  2.13%  77.5  301s
- 206000 85195 infeasible  272        47.00000   46.00000  2.13%  77.6  305s
- 210995 86109   46.00000  300   14   47.00000   46.00000  2.13%  78.1  311s
- 214613 86930   46.00000  313   18   47.00000   46.00000  2.13%  78.6  315s
- 219183 88411   46.00000  255   16   47.00000   46.00000  2.13%  79.0  320s
- 222044 89652 infeasible  315        47.00000   46.00000  2.13%  79.0  325s
- 228721 92970   46.00000  268   35   47.00000   46.00000  2.13%  78.5  330s
- 229862 92981   46.00000  278   13   47.00000   46.00000  2.13%  78.5  336s
- 229873 92990   46.00000  279   15   47.00000   46.00000  2.13%  78.5  340s
- 230391 93629 infeasible  259        47.00000   46.00000  2.13%  78.4  345s
- 233599 97926   46.00000  255   28   47.00000   46.00000  2.13%  78.4  358s
- 243599 98231   46.00000  344   34   47.00000   46.00000  2.13%  78.4  360s
- 246110 99480 infeasible  292        47.00000   46.00000  2.13%  78.3  365s
- 251950 101672 infeasible  341        47.00000   46.00000  2.13%  78.3  370s
- 254524 103329   46.00000  359   18   47.00000   46.00000  2.13%  78.2  375s
- 259926 105551   46.00000  278   14   47.00000   46.00000  2.13%  78.2  380s
- 262743 106526   46.00000  248   20   47.00000   46.00000  2.13%  78.2  385s
- 266768 108287 infeasible  301        47.00000   46.00000  2.13%  78.4  390s
- 270182 109514   46.00000  257   15   47.00000   46.00000  2.13%  78.3  395s
- 274973 111584 infeasible  274        47.00000   46.00000  2.13%  78.3  400s
- 278044 112681   46.00000  258   12   47.00000   46.00000  2.13%  78.4  405s
- 283236 115139   46.00000  262   20   47.00000   46.00000  2.13%  78.4  411s
- 287648 116485 infeasible  256        47.00000   46.00000  2.13%  78.2  416s
- 290028 117728 infeasible  346        47.00000   46.00000  2.13%  78.1  420s
- 292547 119051   46.00000  473   26   47.00000   46.00000  2.13%  78.0  426s
- 293257 119681   46.00000  329   19   47.00000   46.00000  2.13%  77.9  431s
- 297046 121465 infeasible  321        47.00000   46.00000  2.13%  77.9  436s
- 300416 122744   46.00000  307   29   47.00000   46.00000  2.13%  77.9  441s
- 302794 123280   46.00000  325   24   47.00000   46.00000  2.13%  78.0  445s
- 309171 126248 infeasible  299        47.00000   46.00000  2.13%  77.8  450s
- 313111 127321   46.00000  306   25   47.00000   46.00000  2.13%  77.9  455s
- 318255 129805 infeasible  348        47.00000   46.00000  2.13%  77.4  460s
- 319733 130046   46.00000  271   12   47.00000   46.00000  2.13%  77.3  465s
- 320394 130773   46.00000  243   50   47.00000   46.00000  2.13%  77.3  471s
- 322484 131205 infeasible  324        47.00000   46.00000  2.13%  77.1  475s
- 324108 132712   46.00000  414   32   47.00000   46.00000  2.13%  77.0  480s
- 327588 133706   46.00000  233   41   47.00000   46.00000  2.13%  77.1  485s
- 334188 136816 infeasible  268        47.00000   46.00000  2.13%  77.0  490s
- 338220 138586   46.00000  266   14   47.00000   46.00000  2.13%  76.7  495s
- 343844 140211   46.00000  296   22   47.00000   46.00000  2.13%  76.5  500s
- 348921 142499   46.00000  268   16   47.00000   46.00000  2.13%  76.3  505s
+     0     0    0.00000    0    4    2.00000    0.00000   100%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Mod-K: 2
+  RLT: 1
+
+Explored 1 nodes (5 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Opt.value= 2.0
+partition:
+[3, 4]
+[1, 2]
+
+
+
+Quadratic optimization
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 1 rows, 4 columns and 4 nonzeros (Min)
+Model fingerprint: 0x26587a66
+Model has 4 linear objective coefficients
+Model has 4 quadratic objective terms
+Variable types: 0 continuous, 4 integer (4 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+00]
+  QObjective range [4e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+00]
+Found heuristic solution: objective 2.0000000
+Presolve time: 0.00s
+Presolved: 5 rows, 8 columns, 16 nonzeros
+Variable types: 0 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 0.000000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Opt.value= 2.0
+partition:
+[1, 2]
+[3, 4]
+
+
+
+Quadratic optimization - positive semidefinite
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 1 rows, 4 columns and 4 nonzeros (Min)
+Model fingerprint: 0x62252225
+Model has 0 linear objective coefficients
+Model has 8 quadratic objective terms
+Variable types: 0 continuous, 4 integer (4 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 6e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+00]
+Found heuristic solution: objective 2.0000000
+Presolve time: 0.00s
+Presolved: 5 rows, 8 columns, 16 nonzeros
+Variable types: 0 continuous, 8 integer (8 binary)
+
+Root relaxation: objective 0.000000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Opt.value= 2.0
+partition:
+[1, 2]
+[3, 4]
+
+
+
+Second order cone optimization
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 5 rows, 12 columns and 12 nonzeros (Min)
+Model fingerprint: 0xc2980588
+Model has 4 linear objective coefficients
+Model has 8 quadratic constraints
+Variable types: 8 continuous, 4 integer (4 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve time: 0.00s
+Presolved: 25 rows, 16 columns, 72 nonzeros
+Variable types: 8 continuous, 8 integer (8 binary)
+Found heuristic solution: objective 3.0000000
+Found heuristic solution: objective 2.0000000
+
+Root relaxation: objective 0.000000e+00, 9 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    8    2.00000    0.00000   100%     -    0s
+     0     0     cutoff    0         2.00000    2.00000  0.00%     -    0s
+
+Explored 1 nodes (13 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 2 3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Opt.value= 2.0
+partition:
+[3, 4]
+[1, 2]
