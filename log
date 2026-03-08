@@ -1,53 +1,137 @@
+{(1, 1): 0, (1, 2): 9, (1, 3): 10, (1, 4): 10, (1, 5): 10, (2, 1): 10, (2, 2): 0, (2, 3): 9, (2, 4): 10, (2, 5): 10, (3, 1): 10, (3, 2): 10, (3, 3): 0, (3, 4): 9, (3, 5): 10, (4, 1): 10, (4, 2): 10, (4, 3): 10, (4, 4): 0, (4, 5): 9, (5, 1): 9, (5, 2): 10, (5, 3): 10, (5, 4): 10, (5, 5): 0}
+{1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+{1: 100, 2: 100, 3: 10, 4: 100, 5: 100}
 Set parameter Username
 Set parameter LicenseID to value 2762656
 Academic license - for non-commercial use only - expires 2027-01-10
-Opt.value= 330.0
-x(1,4) 1.0
-u(2) 2.0
-x(2,3) 1.0
-u(3) 3.0
-x(3,5) 1.0
-u(4) 1.0
-x(4,2) 1.0
-u(5) 4.0
-x(5,1) 1.0
-[1, 4, 2, 3]
-Opt.value= 330.0
-x(1,4) 1.0
-u(2) 2.0
-x(2,3) 1.0
-u(3) 3.0
-x(3,5) 1.0
-u(4) 1.0
-x(4,2) 1.0
-u(5) 4.0
-x(5,1) 1.0
-[1, 4, 2, 3]
-Opt.value= 330.0
-x(1,4) 1.0
-f(1,4) 4.0
-x(2,3) 1.0
-f(2,3) 2.0
-x(3,5) 1.0
-f(3,5) 1.0
-x(4,2) 1.0
-f(4,2) 3.0
-x(5,1) 1.0
-[1, 4, 2, 3]
-Opt.value= 330.0
-x(1,4) 1.0
-f(1,4,2) 1.0
-f(1,4,3) 1.0
-f(1,4,4) 1.0
-f(1,4,5) 1.0
-x(2,3) 1.0
-f(2,3,3) 1.0
-f(2,3,5) 1.0
-x(3,5) 1.0
-f(3,5,5) 1.0
-x(4,2) 1.0
-f(4,2,2) 1.0
-f(4,2,3) 1.0
-f(4,2,5) 1.0
-x(5,1) 1.0
-[1, 4, 2, 3]
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 26 rows, 25 columns and 88 nonzeros (Min)
+Model fingerprint: 0x8af774f8
+Model has 20 linear objective coefficients
+Variable types: 5 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [9e+00, 1e+01]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 50.0000000
+Presolve removed 9 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 17 rows, 16 columns, 57 nonzeros
+Variable types: 3 continuous, 13 integer (13 binary)
+
+Root relaxation: objective 4.800000e+01, 11 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   48.00000    0    6   50.00000   48.00000  4.00%     -    0s
+H    0     0                      48.0000000   48.00000  0.00%     -    0s
+     0     0   48.00000    0    6   48.00000   48.00000  0.00%     -    0s
+
+Explored 1 nodes (11 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 48 50 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.800000000000e+01, best bound 4.800000000000e+01, gap 0.0000%
+mtz:
+[1, 3, 4, 5, 2]
+Opt.value = 48.0
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 34 rows, 25 columns and 135 nonzeros (Min)
+Model fingerprint: 0xfa57f11a
+Model has 20 linear objective coefficients
+Variable types: 5 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [9e+00, 1e+01]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 1e+02]
+Found heuristic solution: objective 48.0000000
+Presolve removed 12 rows and 10 columns
+Presolve time: 0.00s
+Presolved: 22 rows, 15 columns, 68 nonzeros
+Variable types: 3 continuous, 12 integer (12 binary)
+
+Root relaxation: cutoff, 10 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0        48.00000   48.00000  0.00%     -    0s
+
+Explored 1 nodes (10 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 1: 48 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.800000000000e+01, best bound 4.800000000000e+01, gap 0.0000%
+mtz2:
+[1, 3, 4, 2, 5]
+Opt.value = 48.0
+TWO INDEX MODEL
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.2.0 25C56)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 54 rows, 40 columns and 148 nonzeros (Min)
+Model fingerprint: 0xa714e238
+Model has 20 linear objective coefficients
+Variable types: 20 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [9e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 50.0000000
+Presolve removed 28 rows and 8 columns
+Presolve time: 0.00s
+Presolved: 26 rows, 32 columns, 104 nonzeros
+Variable types: 12 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 4.516162e+01, 15 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   45.16162    0    4   50.00000   45.16162  9.68%     -    0s
+H    0     0                      48.0000000   45.16162  5.91%     -    0s
+     0     0     cutoff    0        48.00000   48.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Implied bound: 2
+  MIR: 4
+  Flow cover: 1
+  Network: 1
+
+Explored 1 nodes (27 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 48 50 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.800000000000e+01, best bound 4.800000000000e+01, gap 0.0000%
+Opt.value= 48.0
+x(1,3) 1 3 1.0
+x(2,4) 2 4 1.0
+x(3,2) 3 2 1.0
+x(4,5) 4 5 1.0
+x(5,1) 5 1 1.0
+u(2,4) 2 4 20.0
+u(3,2) 3 2 10.0
+u(4,5) 4 5 30.0
+u(5,1) 5 1 100.0
+[3, 2, 4, 5, 1]
