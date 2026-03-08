@@ -18,8 +18,6 @@ ssp.py: model for the stable set problem（安定集合問題 / 最大独立集�
 
 数式コメント方針（Mathover対応）
 - ソースコード内の数式コメントは `# Math: <LaTeX>` の1行形式に統一する。
-
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *
