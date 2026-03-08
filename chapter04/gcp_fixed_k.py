@@ -30,8 +30,6 @@ gcp.py: model for the graph coloring problem（グラフ彩色問題: GCP）
 数式コメント方針（Mathover対応）
 - ソースコード内の数式コメントは `# Math: <LaTeX>` の1行形式に統一する。
 - 以降、レビュー本文は LaTeX（$...$ / $$...$$）だが、ソースコード内は Mathover 形式。
-
-Copyright (c) by Joao Pedro PEDROSO and Mikio KUBO, 2012
 """
 
 from gurobipy import *
